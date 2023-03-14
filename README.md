@@ -3,5 +3,6 @@ Created using HTML, CSS and JS where you can play drum sound.
 
 Why not give it a try :- https://shubhamrajgithub.github.io/Drum/
 
-![Screenshot](Screenshot(122).png)
+
+![My animated logo](Screenshot(122).png)
 
