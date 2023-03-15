@@ -5,10 +5,12 @@ for(var i=0;i<document.querySelectorAll(".drum").length;i++){
         //this.style.color="white";
         var buttonInnerHTML = this.innerHTML;
         createSound(buttonInnerHTML);
+        addAnimation(buttonInnerHTML);
        
     });
     document.addEventListener("keypress",function(event){
         createSound(event.key);
+        addAnimation(event.key);
     });
     function createSound(key){
         switch (key) {
@@ -47,5 +49,11 @@ for(var i=0;i<document.querySelectorAll(".drum").length;i++){
         }
 
     }
+    function addAnimation(ke){
+        var data = document.querySelector("."+ke);
+        data.classList.add(pressed);
+        setTimeOut(function(){
+            data.classList.remove(pressed);
+        }100);
 
 }
