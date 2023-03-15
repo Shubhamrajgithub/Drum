@@ -8,6 +8,7 @@ for(var i=0;i<document.querySelectorAll(".drum").length;i++){
         addAnimation(buttonInnerHTML);
        
     });
+}
     document.addEventListener("keypress",function(event){
         createSound(event.key);
         addAnimation(event.key);
@@ -56,4 +57,3 @@ for(var i=0;i<document.querySelectorAll(".drum").length;i++){
             data.classList.remove("pressed");
         }, 100)};
 
-}
