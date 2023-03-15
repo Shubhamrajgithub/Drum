@@ -52,7 +52,7 @@ for(var i=0;i<document.querySelectorAll(".drum").length;i++){
     function addAnimation(ke){
         var data = document.querySelector("."+ke);
         data.classList.add("pressed");
-        setTimeOut(function(){
+        setTimeout(function(){
             data.classList.remove("pressed");
         }, 100)};
 
