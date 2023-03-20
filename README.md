@@ -3,7 +3,7 @@ Created using HTML, CSS and JS where you can play drum sound.
 
 Why not give it a try :- https://shubhamrajgithub.github.io/Drum/
 
-I have learned this from Angela Yu course on udemy.
+This project idea has been driven from Angela Yu course on udemy.
 
 
 
